@@ -194,3 +194,43 @@ header {
     display: flex;
     justify-content: space-between;
 }
+
+.about {
+    height: 942px;
+    padding: 200px 0;
+    background: black;
+    display: flex;
+    align-items: center;
+}
+
+.about_inner {
+    display: flex;
+    align-items: center;
+}
+
+.about_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about_img {
+    width: 45%;
+}
+
+.about_text {
+    color: white;
+    width: 45%;
+}
+
+.about_title {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 140%;
+    margin-bottom: 45px;
+}
+
+.about_info {
+    font-size: 16px;
+    line-height: 160%;
+}
