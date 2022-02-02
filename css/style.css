@@ -316,3 +316,39 @@ header {
     color: #FFFFFF;
     opacity: 0.5;
 }
+
+.advantages {
+    height: 749px;
+    padding: 100px 0;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.advantages_content {
+    display: flex;
+}
+
+.advantages_block {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 330px;
+}
+
+.advantages_block_title {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 140%;
+    text-align: center;
+}
+
+.advantages_block_subtitle {
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    opacity: 0.8;
+}
